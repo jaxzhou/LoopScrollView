@@ -24,6 +24,7 @@
 		3ACFF54317C7380F0005A245 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ACFF51B17C7380F0005A245 /* Foundation.framework */; };
 		3ACFF54B17C7380F0005A245 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3ACFF54917C7380F0005A245 /* InfoPlist.strings */; };
 		3ACFF54E17C7380F0005A245 /* LoopScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ACFF54D17C7380F0005A245 /* LoopScrollViewTests.m */; };
+		3ACFF55917C7382D0005A245 /* LoopScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ACFF55817C7382C0005A245 /* LoopScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		3ACFF54A17C7380F0005A245 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3ACFF54C17C7380F0005A245 /* LoopScrollViewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoopScrollViewTests.h; sourceTree = "<group>"; };
 		3ACFF54D17C7380F0005A245 /* LoopScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoopScrollViewTests.m; sourceTree = "<group>"; };
+		3ACFF55717C7382C0005A245 /* LoopScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoopScrollView.h; sourceTree = "<group>"; };
+		3ACFF55817C7382C0005A245 /* LoopScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoopScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +129,8 @@
 				3ACFF53717C7380F0005A245 /* ViewController.h */,
 				3ACFF53817C7380F0005A245 /* ViewController.m */,
 				3ACFF52017C7380F0005A245 /* Supporting Files */,
+				3ACFF55717C7382C0005A245 /* LoopScrollView.h */,
+				3ACFF55817C7382C0005A245 /* LoopScrollView.m */,
 			);
 			path = LoopScrollView;
 			sourceTree = "<group>";
@@ -277,6 +282,7 @@
 				3ACFF52617C7380F0005A245 /* main.m in Sources */,
 				3ACFF52A17C7380F0005A245 /* AppDelegate.m in Sources */,
 				3ACFF53917C7380F0005A245 /* ViewController.m in Sources */,
+				3ACFF55917C7382D0005A245 /* LoopScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LoopScrollView.h
 //  LoopScrollView
 //
 //  Created by Zhou Jinxiu on 13-8-23.
@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-@class LoopScrollView;
 
-@interface ViewController : UIViewController{
-    LoopScrollView *loopview;
+@interface LoopScrollView : UIScrollView{
+    
 }
+
 
 @end
